@@ -1,0 +1,136 @@
+body{
+  background-color: rgb(46, 45, 45);
+}
+a {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size:20px;
+  text-decoration: none;
+}
+.lavish {
+  font-family: 'Lavishly Yours', cursive;
+}
+
+.customSubMenuHolder:hover > .customSubMenu{
+  display:block
+}
+.customSubMenu {
+  display:none;
+  box-shadow: 2px 8px 12px rgba(74, 74, 74, 0.5);
+  position:absolute;
+  width:100%;
+  left:0;
+  background:#3f4041;
+}
+
+.nav-item{
+  font-size: 1.5rem;
+}
+.container-fluid,nav{
+  background-color: rgba(33, 33, 33, 0.63);
+  color: white;
+  /* text-align: ; */
+}
+.navbar-nav{
+  position: relative;
+  margin: 20px auto 20px auto;
+  right: 100px;
+}
+.ICon{
+  margin:  30px auto 30px auto;
+  width: 720px;
+  height: 720px;
+  background-color: rgba(232, 232, 232, 0.086) ;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: solid 3px rgb(179, 112, 112);
+  outline: none;
+  box-shadow: 0 0 10px rgba(156, 61, 58, 0.9), 0 0 20px rgba(156, 61, 58, 0.4); 
+}
+.ICon h3{
+  color: #eee7e7;
+  margin-top: 30px;
+  text-shadow: 0 0 10px rgba(116, 28, 41, 0.9);
+}
+.IMAGE{
+  /* text-align: center; */
+  /* position: absolute; */
+  /* float: left; */
+  border-radius: 50%;
+  border: 2px solid;
+  box-shadow: 0 0 10px rgba(156, 61, 58, 0.9), 0 0 20px rgba(156, 61, 58, 0.5); 
+  width: 60%;
+  height: 60%;
+}
+
+.icon-text{
+  margin: 40px;
+  color: #fafafa; /* Set the paragraph text color */
+  line-height: 1.6; /* Improve readability with slightly increased line height */
+  text-shadow: 0 0 10px rgba(156, 61, 58, 0.9);  
+
+}
+.ICon:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow on hover */
+  transform: scale(1.02); /* Scale up the container on hover */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition for a smooth effect */
+}
+
+.Explore {
+  width: 100%;
+  height: 100vh; /* Use the full height of the viewport */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.i_1 {
+  width: 35%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the carousel within the container */
+}
+
+.items {
+  width: 100%;
+  height: auto; /* Maintain the aspect ratio of the images */
+}
+
+
+
+
+.Resturant {
+  text-align: center;
+  padding: 20px;
+}
+
+#menuImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.Res_button{
+  margin: 30px;
+}
+
+.card-body{
+  background-color: #3f4041;
+}
+
+.card-title{
+  color:#943434;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #f2ebeb, 0 0 10px #f2ebeb, 0 0 12px #f2ebeb;
+  }
+  to {
+    text-shadow: 0 0 5px #f2ebeb, 0 0 10px #fb0808, 0 0 12px #e7e7e7;
+  }
+}
+

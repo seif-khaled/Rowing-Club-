@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(46, 45, 45);
+  }
+  a {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size:20px;
+    text-decoration: none;
+  }
+  .lavish {
+    font-family: 'Lavishly Yours', cursive;
+  }
+  
+  .customSubMenuHolder:hover > .customSubMenu{
+    display:block
+  }
+  .customSubMenu {
+    display:none;
+    box-shadow: 2px 8px 12px rgba(74, 74, 74, 0.5);
+    position:absolute;
+    width:100%;
+    left:0;
+    background:#3f4041;
+  }
+  
+  .nav-item{
+    font-size: 1.5rem;
+    /* color:rgba(179, 11, 11, 0.831) ; */
+  }
+
+  .nav-link{
+    color:rgba(227, 84, 84, 0.831) ;
+  }
+  .container-fluid,nav{
+    background-color: rgba(33, 33, 33, 0.63);
+    color: white;
+    /* text-align: ; */
+  }
+  .navbar-nav{
+    position: relative;
+    margin: 20px auto 20px auto;
+    right: 100px;
+  }
+
+
+  h2{
+    margin: 15px auto 15px auto; 
+    text-align: center; 
+    color:rgba(179, 11, 11, 0.831) ;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #f2ebeb, 0 0 10px #f2ebeb, 0 0 12px #f2ebeb;
+    }
+    to {
+      text-shadow: 0 0 5px #f2ebeb, 0 0 10px #fb0808, 0 0 12px #e7e7e7;
+    }
+  }
+
+.container_cards{
+  margin: 30px auto;
+  text-align: center;
+}
+
+
+
+.row_cards{
+  margin: 30px auto;
+}
+
+.card-body{
+  background-color: #3f4041;
+}
+
+.card-title{
+  color:#943434;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
