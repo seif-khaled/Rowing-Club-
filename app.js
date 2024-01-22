@@ -16,10 +16,6 @@ app.use("/Dashboard",Dashboard);
 app.use("/Resturant",Resturant);
 app.use("/Packages",Packages);
 
-// app.get("/",(req,res)=>{
-//     res.sendFile(path.join(__dirname,"views","Dashboard.html"));
-// });
-
 
 
 app.listen(3000,()=>{
