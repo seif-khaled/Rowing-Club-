@@ -27,9 +27,6 @@ body{
     /* color:rgba(179, 11, 11, 0.831) ; */
   }
 
-  .nav-link{
-    color:rgba(227, 84, 84, 0.831) ;
-  }
   .container-fluid,nav{
     background-color: rgba(33, 33, 33, 0.63);
     color: white;

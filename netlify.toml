@@ -1,8 +1,9 @@
 [build]
-  command = "npm start"
-  publish = "public"
+port = 3000
+command = "node app.js"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+force = true
+from = "/api/*"
+status = 200
+to = "/.netlify/functions/api/:splat"
